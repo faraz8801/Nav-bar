@@ -1,0 +1,211 @@
+
+.header{
+
+    display: flex;
+    
+    background: linear-gradient(blueviolet, purple);
+    color: white;
+    transition: background-color 1s;
+    flex-wrap: wrap;
+    height: 
+}
+
+
+.logo{
+
+    
+    width :150px;
+    text-align: center;
+    font-size: 70px;
+    font-weight:bolder;
+    
+}
+
+.center{
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    
+}
+
+.navbar li{
+
+    list-style: none;
+    width:200px;    
+    text-align: center  ;
+    margin: 10px;   
+    
+    padding: 10px 5px;
+    background-color: blueviolet;
+
+
+
+}
+
+.navbar li a:hover{
+
+    color: blue;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    }
+
+    .material-symbols-outlined{
+        margin-right: 5px;
+    }
+
+.center input{
+    margin-bottom: 10px;
+   
+    border-radius: 10px;
+    padding: 10px;
+
+    margin-left: 40px;
+    margin-right: 10px;
+    
+   
+}
+
+.user{
+    
+    width: 300px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.contact{
+    background-color: blueviolet;
+    text-align:center;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.user span{
+    margin: 10px;
+}
+
+.Dir-services{
+    display: none;
+}
+
+.Directory:hover{
+    height: 50px;
+    
+}
+
+
+.Directory:hover .Dir-services {
+
+    
+    display: block;
+    flex-direction: column;
+    background: linear-gradient(blueviolet, purple);
+   
+    width: 200px;
+    margin-left: -5px;
+    padding: 0 0 10px 10px;
+    
+
+}
+.Directory:hover .Dir-services li{
+    border: none;
+    width: 170px;
+    
+}
+
+
+.Directory:hover .Dir-services li a
+{
+    font-size: small;
+    text-align: start;
+}
+
+
+
+
+
+@media (min-width:951px)and (max-width:1050px){
+    .header{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:950px){
+    .header{
+        justify-content: center;
+        height: 200px;
+        
+        
+    }
+
+    .navbar{ justify-content: center;
+    
+    }
+
+    .logo{
+        height: 30px;
+        font-size: 20px;
+    }
+    .center{
+        height: 100px;
+        flex-direction:row;
+        
+    
+    }
+
+    .navbar{
+        flex-direction: column;
+        
+       
+    }
+    .navbar li{
+        
+        width: 150px;
+        margin: 1px;
+        height: 50px;
+    
+    }
+
+    .center input{
+        width:150px
+    }
+
+    .navbar a{
+        width: 100px;
+        font-size: small;
+    }
+    
+
+}
+
+
+.submenu-2{
+    display: none;
+}
+
+.submenu-1:hover .submenu-2{
+
+    display: block; 
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 160px;
+    background: linear-gradient(blueviolet, purple);
+    
+
+
+}
