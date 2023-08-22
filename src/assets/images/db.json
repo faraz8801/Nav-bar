@@ -1,0 +1,85 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Faraz",
+      "email": "faraz@gmail.com",
+      "mobile": 8801,
+      "password": 1234567,
+      "check": true
+    },
+    {
+      "name": "random",
+      "email": "random@gmail.com",
+      "mobile": "1243",
+      "password": "123123",
+      "check": true,
+      "id": 2
+    },
+    {
+      "name": "random2",
+      "email": "random2@gmail.com",
+      "mobile": "1243",
+      "password": "123123",
+      "check": true,
+      "id": 3
+    },
+    {
+      "name": "random4",
+      "email": "random4@gmail.com",
+      "mobile": "1243",
+      "password": "123123",
+      "check": true,
+      "id": 3
+    },
+    {
+      "name": "random2",
+      "email": "random2@gmail.com",
+      "mobile": "1243",
+      "password": "123123",
+      "check": true,
+      "id": 4
+    },
+    {
+      "name": "random2",
+      "email": "random2@gmail.com",
+      "mobile": "1243",
+      "password": "123123",
+      "check": true,
+      "id": 5
+    },
+    {
+      "name": "random2",
+      "email": "random2@gmail.com",
+      "mobile": "1243",
+      "password": "123123",
+      "check": true,
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "check": true,
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
